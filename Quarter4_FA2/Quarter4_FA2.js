@@ -7,14 +7,14 @@ function generateTable() {
         return;
     }
 
-    let count = "";
+    let output = "";
 
     for (let i = 1; i <= start; i++) {
         output += "<div class='row'>";
         for (let j = 1; j <= end; j++) {
-            coun6 += '<div class="cell">' + (i * j) + '</div>';
+            output += '<div class="cell">' + (i * j) + '</div>';
         }
-        coun5 += "</div>";
+        output += "</div>";
     }
 
     document.getElementById("table").innerHTML = output;
