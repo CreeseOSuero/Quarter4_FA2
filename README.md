@@ -1,1 +1,3 @@
-# Quarter4_FA2
+- This is a Laboratory Activity on Modules 12.1 and 12.2
+- The topics covered in this Modules are loops
+- https://github.com/CreeseOSuero/Quarter4_FA2
